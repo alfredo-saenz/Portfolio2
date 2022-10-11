@@ -1,10 +1,11 @@
 import React from 'react';
+import './Home.css'
 
 function Home(props) {
     return (
-        <div>
-            <h1>Welcome</h1>
-            <p>Hello, I'm Alfredo Saenz the UI/Ux designer</p>
+        <div className='intro'>
+            <h1 className='welcome'>Welcome</h1>
+            <p className='welcome-intro'>Hello, I'm Alfredo Saenz the UI/Ux designer</p>
         </div>
     );
 }

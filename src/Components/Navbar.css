@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    text-decoration: none;
+    color: var(--textColor);
 }
 
 :root {
@@ -40,6 +41,7 @@ header .nav-btn {
     color: var(--textColor);
     visibility: hidden;
     opacity: 0;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 1024px){
@@ -54,6 +56,7 @@ header .nav-btn {
         height: 100%;
         width: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
@@ -64,5 +67,16 @@ header .nav-btn {
 
     header .responsive_nav {
         transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+
+    nav a {
+        font-size: 1.5rem;
     }
 }

@@ -12,11 +12,19 @@ function Navbar(props) {
     }
     return (
 			<header>
-                <h4>Alfredo Saenz</h4>
+
+                <h4><a href='/'>Alfredo Saenz</a></h4>
+
 				<nav ref={navRef}>
-					<a href='/#'>About me</a>
-					<a href='/#'>Projects</a>
-					<a href='/#'>Contact</a>
+                    {/* <Link to='/about'> */}
+					<a href='/about'>About me</a>
+                    {/* </Link> */}
+                    {/* <Link to='/'> */}
+					<a href='/projects'>Projects</a>
+                    {/* </Link> */}
+                    {/* <Link to='/contact'> */}
+					<a href='/contact'>Contact</a>
+                    {/* </Link> */}
 					<button className='nav-btn nav-close-btn' onClick={showNavbar}>
 						<FaTimes />
 					</button>
