@@ -1,0 +1,160 @@
+.intro {
+
+    margin-top: 30vh;
+    margin-right: 100px;
+
+}
+
+.welcome {
+    font-size: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.home-img {
+    height: 600px;
+    width: 600px;
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-me , .projects-title, .contact-me{
+    text-align: center;
+}
+
+.aboutpage {
+    height: 50vh;
+    text-align: center;
+}
+
+.about-me-section {
+    padding: 20px 400px 30px 400px;
+    margin-bottom: auto;
+}
+
+
+
+.about-me, .projects-title, .contactpage {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.projects {
+    height: 30vh;
+}
+
+/* .carouselBox {
+    height: 30vh;
+} */
+
+.icons {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #252525;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover i{
+    animation: shake .25s;
+}
+
+.icons--linkedin:hover {
+    background-color: #1da1f2;
+    outline-color: #0077b5;
+}
+
+.icons--github:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+.ri-linkedin-line, .ri-github-line{
+    color: #252525;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .welcome {
+        font-size: 80px;
+        margin-top: 20px;
+    }
+
+    .intro {
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    .homepage {
+        display: block;
+        height: 90vh;
+
+    }
+
+    .home-img {
+        height: 370px;
+        width: 370px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aboutpage {
+        height: 60vh;
+    }
+
+    .about-me {
+        font-size: 80px;
+        margin-left: 10px;
+        line-height: 60px;
+
+    }
+
+    .contact-me {
+        font-size: 80px;
+        margin-left: 10px;
+        line-height: 60px;
+    }
+
+    .icons {
+        margin-top: 20px;
+    }
+
+    .about-me-section {
+        padding: 15px;
+        background-color: #B4CEB3;
+
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .projects-title{
+        font-size: 80px;
+        line-height: 60px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+
+}
