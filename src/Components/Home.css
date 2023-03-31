@@ -1,3 +1,7 @@
+* {
+    color: #252525;
+}
+
 .intro {
 
     margin-top: 30vh;
@@ -19,6 +23,18 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+}
+
+.about-me {
+    color: #b4ceb3;
+}
+
+.projects-title {
+    color: #fad4d8;
+}
+
+.contact-me {
+    color: #dbd3c9;
 }
 
 .about-me , .projects-title, .contact-me{
@@ -86,7 +102,7 @@
     display: flex;
     justify-content: center;
     /* border: solid 1px red; */
-    
+
 
 }
 
@@ -191,7 +207,7 @@
 
     .about-me-section {
         padding: 15px;
-        background-color: #B4CEB3;
+        /* background-color: #B4CEB3; */
 
         width: 95%;
         margin: auto;
