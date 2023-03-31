@@ -26,6 +26,7 @@ nav a {
     margin: 0 2rem;
     text-decoration: none;
     color: var(--textColor);
+    cursor: pointer;
 }
 
 nav a:hover {
@@ -44,6 +45,28 @@ header .nav-btn {
     font-size: 1rem;
 }
 
+.home-logo {
+    color: #88a0a8;
+}
+
+.sunflower {
+    height: 150px;
+    width: auto;
+    visibility: hidden;
+}
+
+#about-h1 {
+    color: #b4ceb3;
+
+}
+
+#projects-h1 {
+    color: #fad4d8;
+}
+
+#contact-h1 {
+    color: #dbd3c9;
+}
 /* .home-logo {
     margin-left: 50px;
 } */
@@ -87,4 +110,10 @@ header .nav-btn {
     nav a {
         font-size: 1.5rem;
     }
+
+        .sunflower {
+            visibility: visible;
+            height: 150px;
+            width: auto;
+        }
 }
