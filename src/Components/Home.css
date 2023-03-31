@@ -42,8 +42,9 @@
 }
 
 .aboutpage {
-    height: 50vh;
+    height: 60vh;
     text-align: center;
+
 }
 
 .about-me-section {
@@ -113,6 +114,9 @@
 /* .carouselBox {
     height: 30vh;
 } */
+.contactpage {
+    height: 30vh;
+}
 
 .icons {
     display: flex;
@@ -184,8 +188,13 @@
         margin: auto;
     }
 
+    .about-me-section {
+       padding: 10px 200px 15px 200px;
+       margin-bottom: 30px;
+    }
+
     .aboutpage {
-        height: 60vh;
+        height: 110vh;
     }
 
     .about-me {
@@ -222,7 +231,7 @@
     }
 
     .contactpage {
-        height: 30vh;
+        height: 50vh;
     }
 
 }
