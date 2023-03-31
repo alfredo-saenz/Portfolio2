@@ -32,7 +32,7 @@
 
 .about-me-section {
     padding: 20px 400px 30px 400px;
-    margin-bottom: auto;
+    margin-bottom: 30px;
 }
 
 
@@ -43,6 +43,55 @@
 
 .projects {
     height: 30vh;
+}
+
+.project-box {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto auto;
+    gap: 4em; */
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+.img-box{
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+
+
+
+}
+
+#box1, #box2, #box3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 4em;
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+
+
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px red; */
+    
+
+}
+
+.project-title {
+    margin-top: 20px;
 }
 
 /* .carouselBox {
@@ -157,7 +206,7 @@
     }
 
     .contactpage {
-        height: 20vh;
+        height: 30vh;
     }
 
 }

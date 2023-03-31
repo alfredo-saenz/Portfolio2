@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { useRef } from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
+import sunflower from '../Images/Untitled_Artwork 3.png'
 
 function Navbar(props) {
 	const navRef = useRef();
@@ -16,6 +17,7 @@ function Navbar(props) {
 			<h5 className='home-logo'>Alfredo Saenz</h5>
 
 			<nav className='nav-section' ref={navRef}>
+				<img className='sunflower' src={sunflower} alt="" />
 				<a>
 					<Link
 						activeClass='active'
