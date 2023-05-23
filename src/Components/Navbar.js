@@ -48,7 +48,6 @@ function Navbar(props) {
 						Contact
 					</Link>
 				</a>
-
 				<button className='nav-btn nav-close-btn' onClick={showNavbar}>
 					<FaTimes />
 				</button>

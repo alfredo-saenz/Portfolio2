@@ -53,16 +53,25 @@ function Home(props) {
 				<h1 className='projects-title'>My Projects</h1>
 				<div className='projects-container'>
 					<div className='project-box' id='box1'>
+						<a target='_blank' href='https://glistening-faun-035096.netlify.app/'>
+
 						<img className='img-box' src={Ash} alt='' />
 						<h6 className='project-title'>Ashleigh's Kitchen</h6>
+						</a>
 					</div>
 					<div className='project-box' id='box2'>
+						<a target='_blank' href='https://jobtrakr.netlify.app/'>
 						<img className='img-box' src={trakr} alt='' />
 						<h6 className='project-title'>Trakr.</h6>
+
+						</a>
 					</div>
 					<div className='project-box' id='box3'>
+						<a target='_blank' href='https://hello-world-travel.netlify.app/map'>
 						<img className='img-box' src={world} alt='' />
 						<h6 className='project-title'>Hello World</h6>
+
+						</a>
 					</div>
 				</div>
 				{/* <CarouselContainer data={data} /> */}
